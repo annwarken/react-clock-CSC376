@@ -1,0 +1,22 @@
+.nav-bar {
+    padding: 10px;
+    background-color: rgb(237, 16, 67); 
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.nav-bar a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: x-large;
+    text-shadow: 2px 2px 4px black;
+}
+
+.nav-bar a:hover {
+    color: gray;
+}

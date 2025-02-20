@@ -1,0 +1,19 @@
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(237, 16, 67); 
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: rgb(181, 15, 53); 
+    cursor: pointer;
+}
+
+.button.disabled {
+    background-color: gray;
+    cursor: default;
+}
